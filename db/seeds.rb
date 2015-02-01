@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+20.times do |num|
+  title = Faker::App.name
+  price = Faker::Number.digit.to_i*300
+  image_url = Faker::Avatar.image("game_" + num.to_s, "220x220", "jpg")
+  Game.create(title: title, price: price, image_url: image_url)
+end

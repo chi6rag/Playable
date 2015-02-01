@@ -1,0 +1,89 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic);
+
+// header
+.navbar-inner {
+  background: none;
+  filter: none;
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  background-color: #2f3739;
+}
+
+.navbar {
+  border-radius: 0px;
+  border: 0px solid #2f3739;
+}
+
+.navbar-default {
+  background-color: #2f3739;
+}
+
+
+#play {
+  text-transform: uppercase;
+  color: #7BE058;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#able {
+  text-transform: uppercase;
+  color: #FFFFFF;
+font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.navbar .nav > li > a {
+  color: white;
+  text-shadow: none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:visited {
+  color: white;
+}
+
+.navbar .nav > li > a {
+  color: white;
+  background: none;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #2f3739;
+  color: white;
+}
+
+.navbar .nav .active > a:hover {
+  background: none;
+}
+
+.glyphicon .glyphicon-shopping-cart {
+  position: relative; left: -100;
+}
+
+#make-it-white {
+  color: white;
+}
+
+// body
+
+// remove this
+.image-body {
+  height: 500px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+// footer
+footer {
+  height: 10vh; width: 100vw;
+  background-color: #2f3739;
+}
