@@ -1,0 +1,12 @@
+<a href="<%= game_path(game) %>">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="<%= game.image_url %>" alt="<%= game.title %>">
+      <div class="caption">
+        <h3><%= game.title %></h3>
+        <p>Price: Rs. <%= game.price.to_i %>/-</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</a>
