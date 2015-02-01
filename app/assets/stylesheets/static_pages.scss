@@ -2,15 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@font-face {
-   font-family: BIG JOHN; 
-   src: url('https://s3-us-west-1.amazonaws.com/playableassets/BIG+JOHN.otf');
-}
-
-@font-face {
-   font-family: slim joe; 
-   src: url('https://s3.amazonaws.com/sampleappassets/Slim+Joe.otf');
-}
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic);
 
 // header
 .navbar-inner {
@@ -37,14 +29,17 @@
 #play {
   text-transform: uppercase;
   color: #7BE058;
-  font-family: 'slim joe', sans-serif;
-  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 #able {
   text-transform: uppercase;
   color: #FFFFFF;
-  font-family: 'BIG JOHN', sans-serif;
+font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .navbar .nav > li > a {
