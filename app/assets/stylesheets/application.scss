@@ -3,3 +3,7 @@
 @import 'static_pages';
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+body {
+  overflow-x: hidden;
+}

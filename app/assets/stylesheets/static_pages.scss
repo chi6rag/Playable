@@ -13,7 +13,6 @@
 }
 
 // header
-
 .navbar-inner {
   background: none;
   filter: none;
@@ -77,4 +76,19 @@
 
 #make-it-white {
   color: white;
+}
+
+// body
+
+// remove this
+.image-body {
+  height: 500px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+// footer
+footer {
+  height: 10vh; width: 100vw;
+  background-color: #2f3739;
 }
